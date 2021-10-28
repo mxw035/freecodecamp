@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width" intial-scale="1.0">
+
+        <style>
+
+            body{
+                background-color:midnightblue;
+                color:gold;
+            }
+            h1{
+                background-color:ivory;
+                border-radius:12px;
+                text-align:center;
+                color:darkblue;
+            }
+            p {
+                text-align:center;
+                color:white;
+
+            }
+            form {
+                background-color:gold;
+                border-radius:12px;
+                color:black;
+                text-align:center;
+
+            }
+            #submit {
+                background-color:maroon;
+                color:white;
+                border-radius:12px;
+                border-color:white;
+            }
+
+        </style>
+
+        <title>Luna Survey</title>
+
+    </head>
+    <body>
+
+        <h1 id="title">What do you love about Luna?</h1>
+        <p id="description">
+
+            This page is to understand peoples favorite charecteristics of Luna Lovegood.
+
+        </p>
+
+        <form id="survey-form">
+            <label for="name" id="name-label">
+                Name
+                <input id="name" name="name" placeholder="Name" autocomplete="off" type="text">
+            </label>
+            <br>
+            <label for="email" id="email-label">
+                Email
+                <input id="email" name="email" placeholder="Email" autocomplete="off" type="email">
+            </label>
+            <br>
+            <label for="number" id="number-label">
+                Age
+                <input id="number" name="number" placeholder="Age" autocomplete="off" type="number" min="0" max="100">
+            </label>
+            <br>
+            <label for="personality" id="personality-label">
+                <select id="dropdown">
+                    <option value="loving" name="personality">Loving</option>
+                    <option value="brave" name="personality">Brave</option>
+                    <option value="smart" name="personality">Smart</option>
+                    <option value="humble" name="personality">Humble</option>
+                    <option value="kind" name="personality">Kind</option>
+                    <option value="loyal" name="personality">Loyal</option>
+                </select>
+            </label>
+            <br>
+            <h2>Test Your Knowledge</h2>
+            <div class="patronus">
+                <h3>What is Luna's patronus?</h3>
+                <label for="hare">Hare
+                    <input name="patronus" type="radio">
+                </label>
+            <br>
+                <label for="otter">Otter
+                    <input name="patronus" type="radio">
+                </label>
+            <br>
+                <label for="stag">Stag
+                    <input name="patronus" type="radio">
+                </label>
+            <br>
+                <label for="bat">Bat
+                    <input name="patronus" type="radio">
+                </label>
+            </div>
+            <br>
+            <div class="house">
+                <h3>What house is Luna in?</h3>
+                <label for="gryffindor">Gryffindor
+                    <input name="house" type="checkbox" value="Gryffindor">
+                </label>
+            <br>
+                <label for="hufflepuff">Hufflepuff
+                    <input name="house" type="checkbox" value="Hufflepuff">
+                </label>
+            <br>
+                <label for="slytherin">
+                    Slytherin
+                    <input name="house" type="checkbox" value="Slytherin">
+                </label>
+            <br>
+                <label for="Ravenclaw">Ravenclaw
+                    <input name="house" type="checkbox" value="Ravenclaw">
+                </label>
+            <br>
+            </div>
+            <div class="textbox">
+
+                <input type="textarea" name="opinion" placeholder="Your opinion">
+
+            </div>
+            <button>
+                <input type="submit" id="submit" value="submit">
+            </button>
+        </form>
+
+
+    </body>
+</html>
