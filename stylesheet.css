@@ -62,6 +62,8 @@ form{
 nav{
     background-color:darkred;
     border-radius:12px;
+    position:fixed;
+    top:15px;
 }
 header{
     background-color:goldenrod;
