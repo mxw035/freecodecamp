@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Technical Documentation
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width" intial-scale="1.0">
+
+        <style>
+            body{
+                background-color:blue;
+            }
+
+            #title{
+                background-color:gold;
+                color:midnightblue;
+                text-align:center;
+                border-radius:12px;
+                font-size:x-large;
+
+            }
+            header {
+                background-color:ivory;
+                border-radius:12px;
+                font-size:large;
+                color:midnightblue;
+                text-align:center;
+            }
+            #nav-bar{
+                background-color:ivory;
+                text-align:center;
+                width:150px;
+            }
+            button {
+                border-radius:16px;
+                background-color:teal;
+                color:white;
+                width:100px;
+                margin:25px;
+            }
+            div {
+                width:150px;
+                margin:25px;
+                background-color:maroon;
+                text-align:center;
+            }
+            a {
+                color:white;
+            }
+            .nav{
+                float:left;
+                width:200px;
+                position:fixed;
+                left:10px;
+                margin:25px;
+                border-radius:16px;
+            }
+            p {
+                text-align:center;
+                color:white;
+            }
+            ul{
+                text-align:center;
+                align-items:center;
+                list-style-type:none;
+
+            }
+            li{
+                text-align:center;
+                color:white;
+                font-weight:600;
+            }
+            h1{
+                color:white;
+                text-align:center;
+            }
+            code {
+                color:black;
+                background-color:aqua;
+                align-items:center;
+                text-align:center;
+            }
+            section {
+                align-items:center;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+        <nav id="navbar">
+            <div>
+                <header id="nav-bar">Luna's Pages</header>
+
+            </div>
+
+            <div>
+                <button id="nav-link"><a href="#tribute">Tribute</a></button>
+            </div>
+
+            <div>
+                <button id="nav-link"><a href="#survey">Survey</a></button>
+            </div>
+
+            <div>
+                <button id="nav-link"><a href="#landing">Landing</a></button>
+            </div>
+
+            <div>
+                <button id="nav-link"><a href="#doc">Documentation</a></button>
+            </div>
+
+            <div>
+                <button id="nav-link"><a href="#fun">Fun Notes</a></button>
+            </div>
+
+        </nav>
+        </div>
+        <main id="main-doc">
+            <header id="title">Behind the Sences Luna's Pages</header>
+            <section id="main-section">
+                <header id="tribute">
+                    Tribute Page
+                </header>
+                <p>
+                    <h1>Common Elements List</h1>
+                    <ul>
+                        <li>[] Html</li>
+                            <p>The html element is requried in every html page.</p>
+                            <code>(!DOCTYPE html)</code>
+                            <p>This tells the server to use html 5.</p>
+                            <code>
+                                html lang="en"
+                                <br>
+                                /html
+                                <p>This tells the server to use english. All code should be between the html tags. </p>
+
+                            </code>
+                        <li>[] Head</li>
+                            <code>
+                                head
+                                <br>
+                                /head
+                                <p>The head tags is where the websites title, style, and meta are.</p>
+                            </code>
+                        <li>[] Style</li>
+                            <code>
+                                style
+                                <br>
+                                /style
+                                <p>This is where the css code for all the elements can be put creating a uniquie page design.</p>
+                                <p>Common css code inclues
+                                    <ul>
+                                        <li>background-color:blue;</li>
+                                        <p>Creates the background color of the element.</p>
+                                        <li>color:white;</li>
+                                        <p>Assigns the color of the text within the element.</p>
+                                        <li>border-radius:12px;</li>
+                                        <p>This is how to make the elements have rounded borders</p>
+                                        <li>text-align:center;</li>
+                                        <p>This aligns the texted within the element. It can be right, left or center.</p>
+                                    </ul>
+                                </p>
+                            </code>
+                        <li>[] Title</li>
+                            <p>Title is found with in the head element and creates the title of the webpage.</p>
+                        <li>[] Meta</li>
+                            <p>Meta is used to create a responsive page that can be viewed on all devices.</p>
+                        <li>[] Body</li>
+                            <p>After the head element you have the body element. The body element makes up the parts of the page
+                            that you can see while visiting the site.</p>
+                        <li>[] Main</li>
+                            <p>The Main element wraps around the main content of the page.</p>
+                        <li>[] Div</li>
+                            <p>Div is an element that holds a section of the webpage and helps to divied content allowing for an
+                            organized layout. </p>
+                        <li>[] Lists</li>
+                            <p>Lists can be ordered or unordered.</p>
+                            <code>
+                                ul
+                                <br>
+                                /ul
+                                <p>The ul tag creates an unordered list and would have list items or</p>
+                                li
+                                <br>
+                                /li
+                                <p>tags that hold the content of the list.</p>
+                                ol
+                                <br>
+                                /ol
+                                <p>The ol tags created an ordered list which is marked by numbers instead of dots like and unordered
+                                list.</p>
+                            </code>
+                        <li>[] Headings</li>
+                            <p>Headings can be created using</p>
+                            <code>
+                                h1 - h6
+                                <p>each number is a different size but also helps screen readers tell the difference between main
+                                heading and subheadings.</p>
+                            </code>
+                        <li>[] Anchors</li>
+                            <p>Achors link an oject to either another part of the page or an external link.</p>
+                            <code>
+                                a href="link goes here"
+                                <br>
+                                /a
+                            </code>
+                        <li>[] Image</li>
+                            <p>This element helps to add an image to the page</p>
+                            <code>
+                                img src="link here" alt="alternative view"
+                                <br>
+                                /img
+                                <p>For an image you need the src that is either stored on the same webstie or a link to an external
+                                site. It is also considered madatory to have a alt sentence describing the picture for users who
+                                are using screen readers. </p>
+                            </code>
+                    </ul>
+                    <br>
+                </p>
+            </section>
+            <section id="main-section">
+                <header id="survey">
+                    Survey Page
+                </header>
+                <h1>New Elements Introducted</h1>
+                <p>The survey.html page introduces some new elements they are as follows.</p>
+                <ul>
+                    <li>[] Form</li>
+                        <p>The form element creates a section of the page that can be used to get input from the user. Such
+                        as name, email, age, phone number. Really what ever information you would like.</p>
+                        <code>
+                            form
+                            <br>
+                            /form
+                            <p>All of the code for the form including input, label, select, option, and button should all go
+                            between the form tags.</p>
+                        </code>
+                    <li>[] Label</li>
+                        <p>Label is used to create your guessed it a label. The label can provide a visible name for another element
+                        like and input element within the form</p>
+                        <code>
+                            label for=""
+                            <br>
+                            /label
+                        </code>
+                    <li>[] Input</li>
+                        <p>Input is the element that will actullay determine what input you get from the user a few
+                        common examples inlcude:</p>
+                        <code>
+                            input type="text"
+                        </code>
+                            <p>Examples of input types</p>
+                            <ul>
+                                <li>text</li>
+                                <li>radio</li>
+                                <li>checkbox</li>
+                                <li>submit</li>
+                                <li>email</li>
+                                <li>password</li>
+                                <li>numbers</li>
+                            </ul>
+                        <code>
+                            input name="ex"
+                            <br>
+                            /input
+                        </code>
+                            <p>Name allows the input to be recored under that specific value.
+                            A list of all users emails might be name="email" with type="email"</p>
+                        <code>
+                            input placeholder="name"
+
+                        </code>
+                            <p>placeholders are used with in the form to tell the user what type of data is requested such as email or
+                            name.</p>
+                    <li>[] Select</li>
+                        <p>The select element creates a dropdown list that users can choose from. Within the select element there
+                        need to be option elements.</p>
+                        <code>
+                            select
+                                label
+                                    option name="text" value="text"
+                                /label
+                            /select
+                        </code>
+                    <li>[] Option</li>
+                        <p>As you can see in the code above the option tag is used to create options with in the select tag for a drop down list.</p>
+                    <li>[] Button</li>
+                        <p>The button element creates you guessed it a button</p>
+                        <p>I also use anchor tags with in this tage to direct the user to a new page. </p>
+                        <code>
+                            button id="name"
+                                a href="link"
+                                /a
+                            /button
+                        </code>
+                </ul>
+            </section>
+            <section id="main-section">
+                <header id="landing">
+                    Landing Page
+                </header>
+                <h1>New Elements Presented in Landing.html</h1>
+                <p>The following are a few common elements that were presented in the landing.html page</p>
+                <ul>
+                    <li>[] Nav</li>
+                    <code>
+                        nav id="#"
+                            div class="nav-item"
+                                button
+                                a href="#"
+                                    text
+                                /a
+                                /button
+                            /div
+                        /nav
+                    </code>
+                    <p>As you can see above the nav element can create a navigation bar and within it has div with buttons and links</p>
+                    <li>[] Video</li>
+                    <code>
+                        video width="100" height="300" controls
+
+                            source src="link" type=".."
+                        /video
+
+                    </code>
+                        <p>The video element defines the height and width of the viewer to see the video, controls shows the
+                        controls for the video and then source of course provides the file path or length as well as the type of
+                        video file.</p>
+                    <li>[] Iframe</li>
+                    <code>
+                        iframe width="" hieght="" src=""
+                        /iframe
+                    </code>
+                        <p>I frame is very similar to the video element but is used specifically for youtube videos. As seen here you still
+                        define the hieight and width as well as the link so that useres can view the video while still on your page. </p>
+                </ul>
+            </section>
+
+            <section id="main-section">
+                <header id="doc">
+                    Documentation
+                </header>
+                <h1>New Elements from Documentation.html</h1>
+                <p>As follows are two new elements presented on this page</p>
+                <ul>
+                    <li>[] Section</li>
+                        <code>
+                            section id="main-section"
+                                header
+                                    Header Title Text
+                                /header
+                                p
+                                    Paragraph Text
+                                /p
+                            /section
+                        </code>
+                            <p>As you can see above and after my own testing the default settings for elements div, header, nav, and p
+                            are all the same size.</p>
+                            <p>Headers are slightly different and decrease in size form h1- h6. The elements listed about are
+                            all about the same dementions as h4 by default however h4 does not server as a container. The difference
+                            in elements names instead of using div for everthing is to provided oragnization to your html page.</p>
+                            <a href="https://ide-792b9e9717034ae58a0904ff05bcca85-8080.cs50.ws/test.html">Link to size of elments</a>
+                            <img src="/static/size.png" alt="A image that shows the size of elements." width="50%">
+                    <li>[] Code</li>
+                    <code>
+                        !DOCTYPE html
+                        html lang="en"
+                        head
+                            title
+                            /title
+
+                            style
+                            /style
+
+                        /head
+                        body
+                            h1
+                            p
+                            img
+                        /body
+                        /html
+                    </code>
+                        <p>Above is a basic skeleton code for a html webpage. As you can see using the code element on your html page
+                        changes the text size and shape to differentiate code from other text. By adding .code { } to the style element
+                        you can also change the back ground to better help distinguish code. I have made mine aqua color with black text. </p>
+                </ul>
+            </section>
+            <section id="main-section">
+                <header id="notes">
+                    Other Fun Notes
+                </header>
+                <h1>Fun Extras</h1>
+                <p>You have already seen that I love to use rounded edges on all by elements. I just like the look better.
+                This is completed by:</p>
+                <code>
+                    .h1 {
+                        broder-radius:12px;
+                        }
+                </code>
+                <p>You can also make your background an image instead of a color by doing this:</p>
+                <code>
+                    body {
+                        background-img: url('link goes here');
+                </code>
+                <p>Also helpful tip that will make your html look less cluttered. You do not need to put all your style code in the head
+                section. You can instead create a stylesheet.css and keep all you style code in that file. This will allow you to
+                decrease clutter on you html page and also to use the css code on multiple pages. All you need to do is reference the
+                link in the head element as follows</p>
+                <code>
+                    link rel="stylesheet" href="stylesheet.css"
+                </code>
+
+            </section>
+
+
+        </main>
+
+    </body>
+</html>
