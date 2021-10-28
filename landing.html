@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width" intial-scale="1.0">
+
+        <style>
+            header {
+                background-color:midnightblue;
+                text-align:center;
+                color:ivory;
+                height:50px;
+                border-radius:12px;
+                border-color:white;
+                font-size:30px;
+            }
+            #nav-bar {
+                background-color:gold;
+                border-radius:12px;
+                border-color:white;
+                color:darkblue;
+                text-align:center;
+                height:50px;
+                position:fixed;
+                top:60px;
+                left:40%;
+
+            }
+            main {
+                position:relative;
+                top:110px;
+            }
+            button {
+                background-color:blue;
+                color:white;
+                border-radius:12px;
+                border-color:white;
+                height:40px;
+            }
+            a {
+                color:white;
+            }
+            h2 {
+                background-color:pink;
+                color:purple;
+                border-radius:12px;
+                border-color:white;
+                text-align:center;
+            }
+            body {
+                background-color:teal;
+            }
+            .videodiv {
+                background-color:lightblue;
+                border-radius:12px;
+                border-color:white;
+                width:400px;
+                float:left;
+            }
+            #form {
+                background-color:seagreen;
+                width:400px;
+                text-align:center;
+                border-radius:12px;
+                border-color:white;
+            }
+            .sub{
+                display:grid;
+                grid-template-columns: repeat(3, 100px);
+                background-color:seagreen;
+                text-align:center;
+                margin:50px;
+            }
+            #once {
+                background-color:lightyellow;
+                border-color:white;
+            }
+            #month {
+                background-color:lightpink;
+            }
+            #year {
+                background-color:lightgreen;
+            }
+            video {
+                margin:30px;
+            }
+            .subscription {
+                width:400px;
+            }
+            .flex-box {
+                display:flex;
+                flex-direction:row;
+                flex-wrap:wrap;
+                background-color:teal;
+                color:black;
+                width:500px;
+                border-radius:12px;
+                justify-content:space-between;
+            }
+            #box1 {
+                background-color:lightgreen;
+                justify-content:flex-start;
+                border-radius:12px;
+                margin:15px;
+            }
+            #box2 {
+                background-color:lightyellow;
+                justify-content:center;
+                border-radius:12px;
+                margin:15px;
+            }
+            #box3 {
+                background-color:lightblue;
+                justify-content:flex-end;
+                border-radius:12px;
+                margin:15px;
+            }
+            #email{
+                justify-content:center;
+                border-radius:12px;
+            }
+            #submit{
+                justify-content:center;
+            }
+        </style>
+
+        <title>Landing Page</title>
+
+    </head>
+    <body>
+        <header id="header">Quibbler Subscription
+
+        <img id="header-img" src="/static/quibbler.jpeg" alt="cover of quibbler magazine" width="auto" height="auto">
+
+            <nav id="nav-bar">
+                <button class="nav-link">
+                    <a href="#box1">One Time</a>
+                </button>
+                <button class="nav-link">
+                    <a href="#box2">Six Month Subscription</a>
+                </button>
+                <button class="nav-link">
+                    <a href="#box3">Yearly Subcription</a>
+                </button>
+            </nav>
+        </header>
+        <main>
+        <div class="videodiv">
+            <h2>Video The Quibbler</h2>
+            <video id="video" width="320" height="240" controls>
+                <iframe width="auto" height="auto" src="https://youtu.be/ledH99mG4uI">
+                </iframe>
+            </video>
+            <br>
+            <p>
+                Video not playing?
+                <a href="https://youtu.be/ledH99mG4uI">Not playing Click here</a>
+            </p>
+        </div>
+        <form id="form">
+        <div class="flex-box">
+            <div id="box1">
+                <h1>Once</h1>
+                <p>Get this current issue</p>
+                <p>Price: 20$</p>
+                <label for="once">
+                    One Time
+                    <input type="radio" name="choice" value="once">
+                </label>
+            </div>
+            <div id="box2">
+                <h1>6 Months</h1>
+                <p>Get current issue free and the 6 following issues either buy mail or email.</p>
+                <p>Price Email:40$ Mail: 60$</p>
+                <label for="month">
+                    6 Months
+                    <input type="radio" name="choice" value="month">
+                </label>
+            </div>
+            <div id="box3">
+                <h1>12 Months</h1>
+                <p>Get current issue free and the 12 following issues either buy mail or email.</p>
+                <p>Price Email:70$ Mail: 90$</p>
+                <label for="year">Year
+                    <input type="radio" name="choice" value="year">
+                </label>
+            </div>
+            <input id="email" name="email" placeholder="Email" type="email">
+            <input id="submit" type="hidden">
+                <button><a href="https://www.freecodecamp.org/email-submit">Submit</a>
+                </button>
+            </input>
+            </form>
+
+        </div>
+        </main>
+    </body>
+</html>
