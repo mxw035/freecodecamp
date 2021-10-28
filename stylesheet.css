@@ -8,10 +8,12 @@ body {
 h1 {
     background-color:darkgoldenrod;
     color:darkblue;
+    border-radius:12px;
 
 }
 button {
     background-color:cadetblue;
+    border-radius:12px;
 }
 a{
     color:white;
@@ -19,16 +21,21 @@ a{
 div {
     background-color:burlywood;
     color:black;
+    border-radius:12px;
 }
 form{
     background-color:darkgreen;
+    border-radius:12px;
 }
 nav{
     background-color:darkred;
+    border-radius:12px;
 }
 header{
     background-color:goldenrod;
+    border-radius:12px;
 }
 section {
     background-color:maroon;
+    border-radius:12px
 }
