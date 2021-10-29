@@ -77,3 +77,12 @@ form {
     background-color:darkmagenta;
     border-radisu:12px;
     }
+code {
+    background-color:darkcyan;
+    color:white;
+}
+ul {
+    background-color:slate;
+    list-style-type:none;
+    color:white;
+}
