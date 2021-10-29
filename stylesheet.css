@@ -64,16 +64,10 @@ nav{
     border-radius:12px;
     position:fixed;
     top:15px;
+    left:30%;
     align-items:center;
 }
-sidebar {
-    background-color:darkgreen;
-    border-radius:12px;
-    display:flex;
-    flex-direction:row;
-    position:fixed;
-    top:30px;
-}
+
 header{
     background-color:goldenrod;
     border-radius:12px;
