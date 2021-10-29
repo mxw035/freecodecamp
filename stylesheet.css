@@ -66,10 +66,13 @@ nav{
     top:15px;
     align-items:center;
 }
-.nav-bar{
-    background-color:darkred;
+sidebar {
+    background-color:darkgreen;
     border-radius:12px;
-    float:right;
+    display:flex;
+    flex-direction:row;
+    position:fixed;
+    top:30px;
 }
 header{
     background-color:goldenrod;
