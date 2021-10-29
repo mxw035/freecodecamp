@@ -66,6 +66,14 @@ nav{
     top:15px;
     align-items:center;
 }
+#nav-bar{
+    background-color:darkred;
+    border-radius:12px;
+    position:fixed;
+    top:15px;
+    left:40%;
+    align-items:center;
+}
 header{
     background-color:goldenrod;
     border-radius:12px;
