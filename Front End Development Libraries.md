@@ -8,3 +8,5 @@
 #### [Drum Machine](https://codepen.io/mxw035/full/abLPqXp)
 ### Calculator
 #### [Calculator](https://codepen.io/mxw035/full/rNGoKdV)
+### 25 + 5 clock 
+#### [Timer](https://codepen.io/mxw035/full/JjrQPaz)
